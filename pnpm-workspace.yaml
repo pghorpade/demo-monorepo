@@ -1,0 +1,9 @@
+packages:
+  - ./@app/*
+  - ./packages/*
+
+catalog:
+  vue-tsc: "^2.2.0"
+  vite: "^6.0.5"
+  vue: "^3.5.13"
+  typescript: 5.6.2

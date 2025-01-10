@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./@app/client" },
+    { "path": "./packages/ui-lib" }
+  ]
+}

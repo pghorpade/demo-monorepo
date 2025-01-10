@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Specify global settings shared across projects */
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["@app/*"],
+      "packages/*": ["packages/*"]
+    }
+  },
+  "include": [],
+  "exclude": ["node_modules", "dist"]
+}
